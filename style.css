@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-image: url("https://img.freepik.com/foto-gratis/mar-tropical-hermoso-mar-playa-cielo-azul-nube-blanca-copyspace_74190-8663.jpg?w=2000");
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #000080;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+h1, h2 {
+  color: #4682b4;
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+  line-height: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: solid;
+  border-radius: 5px;
+  }
+
+a.button {
+  background-color: #4682b4;
+}
+
+a:hover {
+  color: #32a1ce;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.card {
+  background-color: white ;
+  border: thick double #32a1ce;
+  box-sizing: border-box;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgb(4, 0, 255);
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
